@@ -11,16 +11,16 @@ npm install --save https://components.appointmentguru.co/location-input/location
 ## Example usage:
 
 ```
-&lt;gmaps-autocomplete
-  api-key=&#39;...&#39;
-  id=&#39;gmaps-autocomplete&#39;
-  @locationchanged=&#39;updateLocation&#39;
-  @distancecalculated=&#39;updateDistanceInfo&#39;
-  origin=&#39;Ponte City Apartments, Joe Slovo Drive, Johannesburg, Gauteng, South Africa&#39;
-  :arrival-time=&#39;arrival&#39;
-   &gt;
-  &lt;input type=&#39;text&#39; id=&#39;gmaps-autocomplete&#39; style=&#39;width: 80%;&#39; /&gt;
-&lt;/gmaps-autocomplete&gt;
+<gmaps-autocomplete
+  api-key='...'
+  id='gmaps-autocomplete'
+  @locationchanged='updateLocation'
+  @distancecalculated='updateDistanceInfo'
+  origin='Ponte City Apartments, Joe Slovo Drive, Johannesburg, Gauteng, South Africa'
+  :arrival-time='arrival'
+   >
+  <input type='text' id='gmaps-autocomplete' style='width: 80%;' />
+</gmaps-autocomplete>
 ```
 
 ## Build Setup
