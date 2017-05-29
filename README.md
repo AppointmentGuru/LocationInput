@@ -2,6 +2,27 @@
 
 > Enter locations or addresses with the help of Google maps
 
+## Installation:
+
+```
+npm install --save https://components.appointmentguru.co/location-input/location-input-{version}.tgz
+```
+
+## Example usage:
+
+```
+&lt;gmaps-autocomplete
+  api-key=&#39;...&#39;
+  id=&#39;gmaps-autocomplete&#39;
+  @locationchanged=&#39;updateLocation&#39;
+  @distancecalculated=&#39;updateDistanceInfo&#39;
+  origin=&#39;Ponte City Apartments, Joe Slovo Drive, Johannesburg, Gauteng, South Africa&#39;
+  :arrival-time=&#39;arrival&#39;
+   &gt;
+  &lt;input type=&#39;text&#39; id=&#39;gmaps-autocomplete&#39; style=&#39;width: 80%;&#39; /&gt;
+&lt;/gmaps-autocomplete&gt;
+```
+
 ## Build Setup
 
 ``` bash
