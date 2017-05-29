@@ -1,6 +1,6 @@
 {
   "name": "location-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enter locations or addresses with the help of Google maps",
   "author": "toast38coza <info@38.co.za>",
   "private": true,
